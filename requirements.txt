@@ -1,0 +1,7 @@
+pip install numpy
+pip install mediapipe
+pip install OpenCV-python
+pip install os
+pip install tensorflow
+pip install streamlit
+pip install av
