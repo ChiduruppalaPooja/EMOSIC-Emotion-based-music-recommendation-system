@@ -1,16 +1,16 @@
-# EMOSIC
+# :musical_note: EMOSIC
 
 This project under 'Face Recognition' category, enables the user to get song recommendations based on their emotion/mood. It detects the users emotion/mood and gives him a list of songs that can be directly played on platforms like Youtube, Spotify and Gaana.
 
 
 
-# Built With
+# :hammer: Built With
 
 Streamlit-This application uses Streamlit succeeded by a locally hosted html and css file.
 
 
 
-# Getting Started
+# :pushpin: Getting Started
 
 Instructions to set up local host
 
@@ -31,7 +31,7 @@ streamlit run filepath [ARGUMENTS]
 ```
 
 
-# Screenshots
+# :file_folder: Screenshots
 
 ### This is a screenshot of the index.html file(here opened using Firefox) this file has animated background
 
@@ -43,34 +43,28 @@ streamlit run filepath [ARGUMENTS]
 
 
 
-# About files
+# :clipboard: About files
 
-####  The [datacollection.py](https://github.com/ChiduruppalaPooja/EMOSIC-Emotion-based-music-recommendation-system/blob/main/datacollection.py) file
+####    :paperclip:    The [datacollection.py](https://github.com/ChiduruppalaPooja/EMOSIC-Emotion-based-music-recommendation-system/blob/main/datacollection.py) file
 
 Used to collect data and save in a .npy file.It requires access to your webcam. The [Collected data](https://github.com/ChiduruppalaPooja/EMOSIC-Emotion-based-music-recommendation-system/tree/main/Collected%20data) folder gives the data collected on my device.
 
-#### The [data_training.py](https://github.com/ChiduruppalaPooja/EMOSIC-Emotion-based-music-recommendation-system/blob/main/data_training.py) file
+####    :paperclip:    The [data_training.py](https://github.com/ChiduruppalaPooja/EMOSIC-Emotion-based-music-recommendation-system/blob/main/data_training.py) file
 
 Used to train the model and find its accuracy and loss, saves the model in a .h5 file and labels in a .npy file. The output files are [model.h5](https://github.com/ChiduruppalaPooja/EMOSIC-Emotion-based-music-recommendation-system/blob/main/model.h5) and [labels.npy](https://github.com/ChiduruppalaPooja/EMOSIC-Emotion-based-music-recommendation-system/blob/main/labels.npy)
 
-#### The [data_inference.py](https://github.com/ChiduruppalaPooja/EMOSIC-Emotion-based-music-recommendation-system/blob/main/data_inference.py) file
+####    :paperclip:    The [data_inference.py](https://github.com/ChiduruppalaPooja/EMOSIC-Emotion-based-music-recommendation-system/blob/main/data_inference.py) file
 
 Used to infer the data and working of the model and prints the emotion in the terminal
 
-#### The index.html file
+####    :paperclip:   The [index.html](https://github.com/ChiduruppalaPooja/EMOSIC-Emotion-based-music-recommendation-system/blob/main/index.html) file
 
 The first page of the website
 
-#### The main.py file
+####    :paperclip:   The [main.py](https://github.com/ChiduruppalaPooja/EMOSIC-Emotion-based-music-recommendation-system/blob/main/main.py) file
 
 Built using stream lit gives recommendations to user and stores the array in [emotion.npy](https://github.com/ChiduruppalaPooja/EMOSIC-Emotion-based-music-recommendation-system/blob/main/emotion.npy) file.
 
-#### The [Output.md](https://github.com/ChiduruppalaPooja/EMOSIC-Emotion-based-music-recommendation-system/blob/main/Outputs.md) file
+####    :paperclip:   The [Output.md](https://github.com/ChiduruppalaPooja/EMOSIC-Emotion-based-music-recommendation-system/blob/main/Outputs.md) file
 This gives the screenshots of all the .py files and the preview of the application
-
-
-
-# More details
-To access a ppt and a document regarding this click the link below.
-
 
